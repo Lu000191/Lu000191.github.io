@@ -24,3 +24,20 @@ ul {
     list-style-type: square;
 }
 
+/* Remove bullets from unordered list */
+nav ul {
+    list-style: none;
+}
+
+
+nav a {
+    text-decoration: none; /* Remove the underline from links */
+    background-color: #eb5e27; /* Add background to links */
+    border: 1px solid #ccc; /* Add border to links */
+    padding: 5px 10px; /* Add padding to links */
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #eb5e27; /* Change background color on hover or focus */
+}
