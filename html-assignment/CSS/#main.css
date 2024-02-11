@@ -6,6 +6,21 @@ body {
 }
 
 header, footer {
-    background-color: #eb5e27;
+    background-color: #ccc6ba;
+}
+
+/* change the color of the text */
+.site-tilte {
+    color: #252422; 
+}
+
+/*Apply box-shadow */
+#my-image {
+    box-sizing: 0 0 2px 1px black; 
+}
+
+/* Use squares instead of bullets */
+ul {
+    list-style-type: square;
 }
 
