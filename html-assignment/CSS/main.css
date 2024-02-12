@@ -6,15 +6,15 @@ body {
 }
 
 header, footer {
-    background-color: #ccc6ba;
+    background-color: #ffc252;
 }
 
-/* change the color of the text */
-.site-tilte {
-    color: #252422; 
+/* Change the color of the text */
+.site-title {
+    color: #3d407d; 
 }
 
-/*Apply box-shadow */
+/* Apply box-shadow with specified parameters */
 #my-image {
     box-shadow: 0 0 2px 1px black; 
 }
@@ -24,20 +24,23 @@ ul {
     list-style-type: square;
 }
 
-/* Remove bullets from unordered list */
-nav ul {
-    list-style: none;
+/* apply background to odd list items */
+ul.Hobbies li:nth-child(odd) {
+    background-color: #f4f1de;
 }
 
-
-nav a {
-    text-decoration: none; /* Remove the underline from links */
-    background-color: #eb5e27; /* Add background to links */
-    border: 1px solid #ccc; /* Add border to links */
-    padding: 5px 10px; /* Add padding to links */
+nav a, h3 {
+    color: #f4f1de;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make links block level to occupy full width */
+    padding: 10px; /* Add padding to links */
+    margin-bottom: 5px; /* Add margin between links */
+    background-color: #3d407d; /* Default background color */
+    border: 2px solid #e06f60; /* Add border to links */
+    transition: background-color 0.3s; /* Smooth transition for background color */
 }
 
-nav a:hover,
-nav a:focus {
-    background-color: #eb5e27; /* Change background color on hover or focus */
+nav a, h3:hover,
+nav a, h3:focus {
+    background-color: #e06f60; /* Change background color on hover or focus */
 }
