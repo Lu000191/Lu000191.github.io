@@ -1,1 +1,80 @@
- 
+body {
+    background-color: #212121;
+}
+.header {
+    position: relative;
+    text-align: center;
+    background-color: #000000;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 8px;     
+ }
+img {
+    width: 100%;
+}
+ .site-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue; /* Adjust as needed */
+    text-shadow: 3px 3px 3px rgb(0, 0, 2); /* Horizontal offset, vertical offset, blur radius, and color */
+    font-size: 300%; /* Adjust as needed */
+    z-index: 1;
+ }
+ /* Display and box-sizing */
+nav ul li {
+    display: inline-block;
+    width: 33%;
+    color: #ffd700;
+ }
+nav ul a {
+    text-decoration: none; /* Remove underline from links */
+    display: block;
+    margin-bottom: 18px; /* Add margin between links */
+    color: aliceblue;
+}
+nav ul a:hover {
+    color: #ffd700;
+}
+
+ /* CSS for Article */
+.article {
+    position: relative;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 8px;
+    background-color: #ffffff;
+ }
+.article img {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+    background-color: #ffffff;
+ }
+.options {
+    position: relative;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 8px;
+    background-color: #ffffff;
+}
+.form {
+    position: relative;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 8px;
+    background-color: #ffffff;
+}
+footer {
+    position: relative;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 8px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+fieldset {
+    background-color: #c4c4c4;
+}
