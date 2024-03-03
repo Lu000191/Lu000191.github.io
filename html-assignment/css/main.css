@@ -27,8 +27,8 @@ ul {
 }
 
 /* apply background to odd list items */
-ul.Hobbies li:nth-child(odd) {
-    background-color: #f4f1de;
+.odd-color li {
+background-color: #f4f1de;
 }
 
 nav a, h3 {
