@@ -27,7 +27,7 @@ ul {
 }
 
 /* apply background to odd list items */
-.odd-color li {
+li:nth-child(1)  {
 background-color: #f4f1de;
 }
 
