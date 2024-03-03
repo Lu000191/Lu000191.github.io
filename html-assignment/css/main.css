@@ -8,7 +8,9 @@ body {
 header, footer {
     background-color: #ffc252;
 }
-
+img {
+    width: 300px;
+}
 /* Change the color of the text */
 .site-title {
     color: #3d407d; 
@@ -16,7 +18,7 @@ header, footer {
 
 /* Apply box-shadow with specified parameters */
 #my-image {
-    box-shadow: 0 0 2px 1px black; 
+    box-shadow: 0px 1px 1px black; 
 }
 
 /* Use squares instead of bullets */
@@ -42,5 +44,5 @@ nav a, h3 {
 
 nav a, h3:hover,
 nav a, h3:focus {
-    background-color: #e06f60; /* Change background color on hover or focus */
+    background-color: #e06f60; /* Change background color on hover */
 }
