@@ -1,41 +1,53 @@
-/* this is a css comment */
 
-body {
+
+body { 
     background-color: #212121;
 }
-.header {
-    position: relative;
-    text-align: center;
-    background-color: #000000;
+
+.container {    
     max-width: 1200px;
-    margin: 0% auto;
-    padding: 8px;     
+    margin: 0 auto;  
+}
+
+header {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0;  
  }
 img {
     width: 100%;
 }
- .site-title {
+.font-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:aliceblue; /* Adjust as needed */
-    text-shadow: 3px 3px 3px rgb(0, 0, 2); /* Horizontal offset, vertical offset, blur radius, and color */
-    font-size: 300%; /* Adjust as needed */
-    z-index: 1;
+    width: 100%;
+    font-weight: bold;
+    top: 55%;
+    text-align: center;
  }
- /* Display and box-sizing */
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+/* Display and box-sizing */
+
 nav ul li {
     display: inline-block;
-    width: 33%;
-    color: #ffd700;
+    text-align: center;
+    width: 32%;   
+    box-sizing: border-box;
  }
 nav ul a {
     text-decoration: none; /* Remove underline from links */
     display: block;
-    margin-bottom: 18px; /* Add margin between links */
-    color: aliceblue;
+    margin-bottom: 50px; /* Add margin between links */
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1em;
+    margin: 0 auto;
 }
+
 nav ul a:hover {
     color: #ffd700;
 }
@@ -43,9 +55,7 @@ nav ul a:hover {
  /* CSS for Article */
 .article {
     position: relative;
-    max-width: 1200px;
-    margin: 0% auto;
-    padding: 8px;
+    padding: 10px;
     background-color: #ffffff;
  }
 .article img {
@@ -56,23 +66,17 @@ nav ul a:hover {
  }
 .options {
     position: relative;
-    max-width: 1200px;
-    margin: 0% auto;
-    padding: 8px;
+    padding: 5px;
     background-color: #ffffff;
 }
 .form {
     position: relative;
-    max-width: 1200px;
-    margin: 0% auto;
-    padding: 8px;
+    padding: 10px;
     background-color: #ffffff;
 }
 footer {
     position: relative;
-    max-width: 1200px;
-    margin: 0% auto;
-    padding: 8px;
+    padding: 5px;
     background-color: #000000;
     color: #ffffff;
 }
