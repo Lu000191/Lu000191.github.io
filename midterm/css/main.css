@@ -5,6 +5,10 @@ body {
     background-color: #212121;
 }
 
+p {
+    line-height: 25px;
+}
+
 .container {    
     max-width: 1200px;
     margin: 0 auto;  
@@ -12,12 +16,18 @@ body {
 
 header {
     position: relative;
-    background-color: #ffffff;
-    padding: 0;  
+    background-color: #000000;
  }
+
 img {
     width: 100%;
+    padding: 0;
 }
+
+.articleimg {
+     padding: 2px 5px 2px;
+}
+
 .font-text {
     position: absolute;
     width: 100%;
@@ -65,10 +75,13 @@ nav ul a:hover {
     margin-right: 15px;
     background-color: #ffffff;
  }
+
+ /* CSS foe Packge list */
 .options {
     position: relative;
     padding: 5px;
     background-color: #ffffff;
+    line-height: 20px;
 }
 .form {
     position: relative;
