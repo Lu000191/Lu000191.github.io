@@ -1,12 +1,12 @@
-
-
 body { 
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #212121;
+    background-color: #aad4cf;
 }
 
 p {
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 17px;
+
 }
 
 .container {    
@@ -16,7 +16,7 @@ p {
 
 header {
     position: relative;
-    background-color: #000000;
+    background-color: #cae0de;
  }
 
 img {
@@ -25,20 +25,20 @@ img {
 }
 
 .articleimg {
-     padding: 2px 5px 2px;
+    padding: 2px 5px 2px; 
 }
 
 .font-text {
     position: absolute;
     width: 100%;
     font-weight: bold;
-    top: 55%;
+    bottom:  20% ;
     text-align: center;
  }
 
 h1 {
     color: #ffffff;
-    text-shadow: 2px 2px 2px #000000;
+    font-size: 48px;
 }
 
 /* Display and box-sizing */
@@ -48,52 +48,66 @@ nav ul li {
     text-align: center;
     width: 32%;   
     box-sizing: border-box;
+    margin: 0 auto;
+    color: #000000;
+    padding: 1em;
+
  }
-nav ul a {
+nav ul {
     text-decoration: none;
     display: block;
-    margin-bottom: 5px; /* Add margin between links */
-    color: #ffffff;
-    background-color: #000000;
-    padding: 1em;
+    margin-bottom: 1px; /* Add margin between links */
     margin: 0 auto;
+    background-color: #cae0de;
 }
 
-nav ul a:hover {
-    color: #ffd700;
+
+
+/* trying to mimic the line between navigation */
+.homeline {
+    box-shadow: 1px 0px 0px #000000;
+}
+.storyline {
+    box-shadow: 1px 0px 0px #000000;
 }
 
  /* CSS for Article */
 .article {
     position: relative;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #cae0de;
  }
 .article img {
     width: 300px;
     float: left;
     margin-right: 15px;
-    background-color: #ffffff;
+    background-color: #cae0de;
  }
 
  /* CSS foe Packge list */
 .options {
     position: relative;
     padding: 5px;
-    background-color: #ffffff;
+    background-color: #cae0de;
     line-height: 20px;
+    text-align: left;
 }
+
+h3 {
+    font-size: 22px;
+}
+
 .form {
     position: relative;
     padding: 5px;
-    background-color: #ffffff;
+    background-color: #cae0de;
 }
 
 /* Footer container */
 .footer {
     position: relative;
-    padding: 10px;
-    background-color: #ffffff; 
+    padding: 5px;
+    background-color: #cae0de; 
     line-height: 80px;
 }
 
@@ -104,5 +118,5 @@ nav ul a:hover {
 }
 
 fieldset {
-    background-color: #c4c4c4;
+    background-color: #cae0de;
 }
