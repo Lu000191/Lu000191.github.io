@@ -50,9 +50,13 @@ nav ul li {
     box-sizing: border-box;
     margin: 0 auto;
     color: #000000;
-    padding: 1em;
-
+    padding: 10px;
  }
+
+.options ul {
+    padding: 20px;
+}
+
 nav ul {
     text-decoration: none;
     display: block;
