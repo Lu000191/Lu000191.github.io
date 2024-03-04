@@ -102,6 +102,13 @@ h3 {
     padding: 5px;
     background-color: #cae0de;
 }
+input[type="text"] {
+    width: 99%;
+}
+textarea {
+    width: 99%;
+    height: 60px;
+}
 
 /* Footer container */
 .footer {
