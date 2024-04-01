@@ -11,7 +11,7 @@
             <ul>
                 <!--backgound color with list down below-->
                 <!--background image with home only-->
-                <li class="home">home</li>
+                <li class="home">Home</li>
                 <li class="about">About Us</li>
                 <!--backgound color with list down below-->
                 <li class="services">Services</li>
@@ -95,5 +95,69 @@
         <!--Learn More is dark transparent button with white right triangle, and yelow borderline-->
         <h4>Learn More</h4>
     </article>
+    <section class="team-section">
+        <h2>Our Team</h2>
+        <div class="field-team">
+            <div class="block">
+                <!--John image-->
+                <h3>John Doe</h3>
+                <p>CEO and Co-owner</p><hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quam labore debitis eius nisi id laborum dicta possimus cumque magnam vel necessitatibus nemo perferendis, sint accusamus corporis? Numquam, temporibus eos.</p>
+            </div>
+            <div class="block">
+                <!--John image-->
+                <h3>Bob Rite</h3>
+                <p>CFO and Co-owner</p><hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quam labore debitis eius nisi id laborum dicta possimus cumque magnam vel necessitatibus nemo perferendis, sint accusamus corporis? Numquam, temporibus eos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="field-contact">
+            <div class="block">
+                <h3>Send us a message</h3>
+                <form action="send.html" method="post">
+                    <label for="fullname">Name</label><br>
+                    <input id="fullname" type="text" name="fullname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br> 
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <div class="block">
+                <h3>Hours of operation</h3>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="block">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44854.475628897424!2d-75.77099043729366!3d45.36082738143753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1711946966094!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section with black color background -->
+    <footer>
+        <p>&copy; Copyright Three Star Media, 2020</p>
+        <p>All images are taken from <u>Unsplash</u></p>
+    </footer>
 </body>
 </html>
