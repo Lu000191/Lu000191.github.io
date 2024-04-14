@@ -1,23 +1,79 @@
+/* genaral font styles */
 body {
-    font-family: "Open Sans", sans-serif
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+/* moblie */
+.nav-block {
+    background-color: #c78c06; /* give background color for the logo image */
+    padding: 10px 0 30px;
+    margin: 0 auto;
+}
+
+.menu {
+    padding: 0; /* matching img container size*/
+    margin: 0 auto; /* combine img background color to home background color */
+}
+
+.menu li:nth-child(1) {
+    background-color: #c78c06; /* hight only the home in the <li> */
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none; /* remove underline of the session nav*/
+    color: #c78c06;
+}
+
+.home {
+    padding: 10px;
+    margin: 0 auto;
+    color: #222;
+}
+
+.menu li {
+    list-style-type: none; /* remove the li dots */
+    text-align: center;
+    color: #c78c06;
+    box-sizing: border-box;
+    padding: 10px;
+ }
+
+.search-bar {
+    position: relative;
+}
+
+input[type="search"] {
+    padding: 5px;
+    margin: 0 auto;
+    width: 690px;
+}
+
+button[type="submit"] {
+    position: absolute;
+    padding: 6px 6px;
+    background-color: #222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
 }
 
 .container { 
-    max-width: 1200px;
+    max-width: 1200px; /* The maximum width of the container 1200px */
     width: 100%;
     margin: 1px ;
     padding: 0.5rem;
     background-color: #222;
 }
 
+/* Add a min-width media query for the screen size of 760px and above for desktop*/
 @media (min-width: 760px) {
     .container {
         padding: 40px;
     }
+    .menu li {
+        display: inline-block;
+    }
+    .container {
+        display: flex;
+    }
 }
-
-.highlight {
-    background-color: #c78c06;
- }
-
-
