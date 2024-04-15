@@ -4,6 +4,7 @@ body {
     font-size: 16px;
 }
 /* moblie */
+/* nav menu seesion */
 .nav-block {
     background-color: #c78c06; /* give background color for the logo image */
     padding: 10px 0 30px;
@@ -46,9 +47,10 @@ ul a {
 input[type="search"] {
     padding: 5px;
     margin: 0 auto;
-    width: 690px;
+    width: 94%;
 }
 
+/* add button background color and border & icon color */
 button[type="submit"] {
     position: absolute;
     padding: 6px 6px;
@@ -61,9 +63,48 @@ button[type="submit"] {
     max-width: 1200px; /* The maximum width of the container 1200px */
     width: 100%;
     margin: 1px ;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #222;
 }
+
+/* Welcome to Three Star Media home-session */
+.home-container {
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    max-width: 1200px; /* The maximum width of 1200px */
+    margin: 0 auto;
+    padding: 80px 0 80px;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 0 auto;
+}
+
+.warpper {
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+/* all button */
+.connect {
+    background-color: #c78c06;
+    border: none;
+    padding: 10px 0 10px;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.fa-caret-right {
+    padding: 10px;
+}
+
+/* About us session */
+
 
 /* Add a min-width media query for the screen size of 760px and above for desktop*/
 @media (min-width: 760px) {
@@ -77,3 +118,4 @@ button[type="submit"] {
         display: flex;
     }
 }
+
