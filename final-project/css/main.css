@@ -258,22 +258,27 @@ footer {
 
     .digital-block {
         grid-area: hd;
+        border: #fff solid 5px;
     }
 
     .block-marketing {
         grid-area: img;
+        border: #fff solid 5px;
     }
 
     .block-video {
         grid-area: p;
+        border: #fff solid 5px;
     }
 
     .block-web {
         grid-area: sd;
+        border: #fff solid 5px;
     }
 
     .block-print {
         grid-area: ft;
+        border: #fff solid 5px;
     }
 }
 
