@@ -280,5 +280,32 @@ footer {
         grid-area: ft;
         border: #fff solid 5px;
     }
+    /* OUR TEAM FLEXblock */
+    .field-team {
+        display: flex;
+    }
+    /* Contact Us grid*/
+    .field-contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "hd img"
+        "p p"
+    }
+
+    .field-contact div:nth-child(1) {
+        grid-area: hd;
+        border: #fff solid 5px;
+    }
+
+    .field-contact div:nth-child(2) {
+        grid-area: p;
+    }
+
+    .field-contact div:nth-child(3) {
+        grid-area: img;
+        border: #fff solid 5px;
+    }
 }
 
