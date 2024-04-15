@@ -246,6 +246,34 @@ footer {
     .menu li {
         margin-right: 10px;
     }
-    
+    /* OUR SERVICES GRID */
+    .field-services {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "hd hd hd img img img"
+        "p p sd sd ft ft"
+    }
+
+    .digital-block {
+        grid-area: hd;
+    }
+
+    .block-marketing {
+        grid-area: img;
+    }
+
+    .block-video {
+        grid-area: p;
+    }
+
+    .block-web {
+        grid-area: sd;
+    }
+
+    .block-print {
+        grid-area: ft;
+    }
 }
 
