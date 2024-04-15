@@ -1,4 +1,9 @@
 /* genaral font styles */
+html {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -222,13 +227,22 @@ footer {
 /* Add a min-width media query for the screen size of 760px and above for desktop*/
 @media (min-width: 760px) {
     .container {
-        padding: 40px;
-    }
-    .menu li {
-        display: inline-block;
-    }
-    .container {
         display: flex;
+        width: 100%;
+    }
+    .nav-block {
+        background-color: transparent;
+        width: 0%;
+    }
+
+    .menu {
+        display: flex;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    
+    .menu li {
+        margin-right: 10px;
     }
 }
 
