@@ -3,12 +3,22 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }
+
+img {
+    width: 100%;
+    padding: 0;
+}
+
 /* moblie */
 /* nav menu seesion */
-.nav-block {
-    background-color: #c78c06; /* give background color for the logo image */
+.nav-block img{
+    width: 100px;
     padding: 10px 0 30px;
     margin: 0 auto;
+}
+.nav-block {
+    background-color: #c78c06;
+    width: 96.5%;
 }
 
 .menu {
@@ -19,6 +29,7 @@ body {
 .menu li:nth-child(1) {
     background-color: #c78c06; /* hight only the home in the <li> */
     padding: 10px;
+    width: 96.5%;
 }
 
 ul a {
@@ -38,6 +49,7 @@ ul a {
     color: #c78c06;
     box-sizing: border-box;
     padding: 10px;
+    width: 96.5%;
  }
 
 .search-bar {
@@ -47,7 +59,7 @@ ul a {
 input[type="search"] {
     padding: 5px;
     margin: 0 auto;
-    width: 94%;
+    width: 93%;
 }
 
 /* add button background color and border & icon color */
@@ -67,6 +79,7 @@ button[type="submit"] {
     background-color: #222;
 }
 
+
 /* Welcome to Three Star Media home-session */
 .home-container {
     background-image: url('../images/main-banner.jpg');
@@ -78,7 +91,11 @@ button[type="submit"] {
 
 h1 {
     font-size: 70px;
-    padding: 0 auto;
+    padding: 0.5rem;
+}
+
+p {
+    padding: 0 1rem 0;
 }
 
 .warpper {
@@ -88,6 +105,7 @@ h1 {
     padding: 10px;
     color: #fff;
 }
+
 /* all button */
 .connect {
     background-color: #c78c06;
@@ -104,6 +122,52 @@ h1 {
 }
 
 /* About us session */
+.field-about {
+    background-color: #ffebac;
+    padding: 0.2rem;
+}
+
+.img-block img {
+    width: 96%;
+    padding: 0.8rem;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 0 0.5rem 0;
+}
+
+/* services block */
+.field-services {
+    background-color: #ffebac;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 0 1rem 0;
+ }
+
+ button[type="button"] {
+    background-color: #222;
+    border: none;
+    margin: 15px;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: #fff;
+ }
+
+ /* Our Vision block */
+.vision {
+    background-image: url('../images/vision.jpg');
+    background-size: cover;
+    width: 100%;
+    padding: 10px 5px 5px;
+}
+
+
+
+
 
 
 /* Add a min-width media query for the screen size of 760px and above for desktop*/
