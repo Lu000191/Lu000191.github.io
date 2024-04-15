@@ -106,7 +106,7 @@ p {
     color: #fff;
 }
 
-/* all button */
+
 .connect {
     background-color: #c78c06;
     border: none;
@@ -148,7 +148,7 @@ h3 {
     padding: 0 1rem 0;
  }
 
- button[type="button"] {
+button[type="button"] {
     background-color: #222;
     border: none;
     margin: 15px;
@@ -165,10 +165,59 @@ h3 {
     padding: 10px 5px 5px;
 }
 
+.ovision {
+    color: #fff;
+}
 
+.pvison {
+    color: #fff;
+}
 
+/* Our team */
+.field-team {
+    background-color: #ffebac;
+    padding-bottom: 20px;
+}
 
+hr {
+    color: #c78c06;
+    width: 95%;
+    margin: 0 auto;
+}
 
+/* Contact Us */
+input[type="text"] {
+    width: 99%;
+    height: 25px;
+    border: #222 solid 0.5px;
+}
+
+input[type="email"] {
+    width: 99%;
+    height: 25px;
+    border: #222 solid 0.5px;
+}
+
+textarea {
+    width: 99%;
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 20px;
+    border: none;
+}
+
+/* Hours of Operation */
+
+/* footer */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 1rem 0 1rem;
+}
 
 /* Add a min-width media query for the screen size of 760px and above for desktop*/
 @media (min-width: 760px) {
